@@ -2,18 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.3.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.blogspot.iggotech</groupId>
 	<artifactId>todolist</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>todolist</name>
 	<description>Gerenciador de tarefas</description>
-	<url>https://github.com/seuusuario/todolist</url> <!-- Adicione a URL do seu repositório -->
+	<url>https://github.com/iggonicollas/todolist</url>
+
 	<licenses>
 		<license>
 			<name>Apache License, Version 2.0</name>
@@ -21,6 +24,7 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+
 	<developers>
 		<developer>
 			<id>1660</id>
@@ -28,12 +32,14 @@
 			<email>iggonicollas@gmail.com</email>
 		</developer>
 	</developers>
+
 	<scm>
 		<connection>scm:git:git://github.com/iggonicollas/todolist.git</connection>
 		<developerConnection>scm:git:ssh://github.com:iggonicollas/todolist.git</developerConnection>
 		<tag>HEAD</tag>
 		<url>https://github.com/iggonicollas/todolist</url>
 	</scm>
+
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -72,6 +78,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
 	</dependencies>
 
 	<build>
